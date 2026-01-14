@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Centro de soporte técnico - SauroSoftware">
+    <title>Soporte - SauroSoftware</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/soporte.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo" onclick="window.location.href='/index.html'">
+                <img src="../assets/images/LOGO.png" alt="Logo">
+                <span>SauroSoftware</span>
+            </div>
+
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#nosotros">Nosotros <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="quienes-somos.html"><i class="fas fa-users"></i> Quiénes Somos</a>
+                        <a href="que-hacemos.html"><i class="fas fa-briefcase"></i> Qué Hacemos</a>
+                    </div>
+                </li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="descargas.html">Descargas</a></li>
+                <li><a href="soporte.html">Soporte</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Centro de Soporte</h1>
+            <p>Estamos aquí para ayudarte 24/7</p>
+            <div class="breadcrumb">
+                <a href="../index.html">Inicio</a> / <span>Soporte</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="support-options">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Cómo podemos ayudarte?</h2>
+                <p>Elige el canal de soporte que mejor se adapte a tus necesidades</p>
+            </div>
+
+            <div class="support-grid">
+                <div class="support-card">
+                    <div class="support-icon-large">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Chat en Vivo</h3>
+                    <p>Habla con nuestro equipo de soporte en tiempo real. Respuesta inmediata para resolver tus dudas.</p>
+                    <a href="#" class="btn btn-primary" onclick="alert('Chat iniciado'); return false;">Iniciar Chat</a>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon-large">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Envíanos un correo detallado y te responderemos en menos de 24 horas laborables.</p>
+                    <a href="mailto:soporte@saurosoftware.com" class="btn btn-primary">Enviar Email</a>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon-large">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Teléfono</h3>
+                    <p>Llámanos directamente para soporte urgente. Disponible 24/7 para clientes premium.</p>
+                    <a href="tel:+59112345678" class="btn btn-primary">+591 123 4567</a>
+                </div>
+
+                <div class="support-card">
+                    <div class="support-icon-large">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>Ticket de Soporte</h3>
+                    <p>Crea un ticket y haz seguimiento del progreso de tu solicitud en nuestro sistema.</p>
+                    <a href="contacto.html" class="btn btn-primary">Crear Ticket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tutorials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tutoriales en Video</h2>
+                <p>Aprende a usar nuestros productos con guías paso a paso</p>
+            </div>
+
+            <div class="videos-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Introducción a SauroPOS</h4>
+                        <div class="video-meta">
+                            <span><i class="fas fa-clock"></i> 12:45</span>
+                            <span><i class="fas fa-eye"></i> 1,245 vistas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Configuración Inicial de SauroERP</h4>
+                        <div class="video-meta">
+                            <span><i class="fas fa-clock"></i> 18:30</span>
+                            <span><i class="fas fa-eye"></i> 892 vistas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Gestión de Inventario</h4>
+                        <div class="video-meta">
+                            <span><i class="fas fa-clock"></i> 15:20</span>
+                            <span><i class="fas fa-eye"></i> 2,104 vistas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Reportes y Análisis en SauroBI</h4>
+                        <div class="video-meta">
+                            <span><i class="fas fa-clock"></i> 22:15</span>
+                            <span><i class="fas fa-eye"></i> 1,567 vistas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Integración de Pasarelas de Pago</h4>
+                        <div class="video-meta">
+                            <span><i class="fas fa-clock"></i> 10:45</span>
+                            <span><i class="fas fa-eye"></i> 3,421 vistas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <h4>Respaldo y Recuperación de Datos</h4>
+                        <div class="video-meta">
+                            <span><i class="fas fa-clock"></i> 14:30</span>
+                            <span><i class="fas fa-eye"></i> 987 vistas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Preguntas Frecuentes</h2>
+                <p>Encuentra respuestas rápidas a las dudas más comunes</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Cómo instalo el software por primera vez?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Para instalar nuestro software, descarga el instalador desde la sección de <a href="descargas.html">Descargas</a>. Ejecuta el archivo .exe como administrador y sigue las instrucciones del asistente. Asegúrate de tener los requisitos mínimos del sistema. Si encuentras algún problema, nuestro equipo de soporte está disponible 24/7.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Cuánto tiempo dura la licencia?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Nuestras licencias son anuales y se renuevan automáticamente. Puedes cancelar la renovación automática en cualquier momento desde tu panel de cliente. También ofrecemos licencias perpetuas para ciertos productos con un único pago.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Puedo usar el software en múltiples computadoras?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Sí, nuestras licencias estándar permiten la instalación en hasta 3 dispositivos. Para uso en más dispositivos, ofrecemos licencias empresariales con instalaciones ilimitadas. Contáctanos para más información sobre planes corporativos.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Ofrecen capacitación para nuevos usuarios?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            ¡Absolutamente! Ofrecemos sesiones de capacitación en línea gratuitas para todos nuestros clientes. Además, contamos con una extensa biblioteca de tutoriales en video y documentación detallada. Para capacitación presencial o personalizada, contáctanos para obtener una cotización.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Qué métodos de pago aceptan?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Aceptamos tarjetas de crédito/débito (Visa, MasterCard, American Express), transferencias bancarias, PayPal y criptomonedas. Para empresas, también ofrecemos facturación con términos de pago de 30 días.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Hay alguna garantía de reembolso?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Sí, ofrecemos una garantía de reembolso de 30 días sin preguntas. Si no estás satisfecho con nuestro producto, puedes solicitar un reembolso completo dentro de los primeros 30 días de compra. Solo contáctanos y procesaremos tu solicitud inmediatamente.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Cómo actualizo a la última versión?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Las actualizaciones se descargan e instalan automáticamente cuando hay una conexión a internet. También puedes verificar manualmente las actualizaciones desde el menú Ayuda > Buscar Actualizaciones. Todas las actualizaciones de seguridad y mejoras están incluidas sin costo adicional.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>¿Puedo migrar datos desde otro sistema?</h4>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            Sí, nuestros productos incluyen herramientas de importación para los formatos más comunes (CSV, Excel, SQL). También ofrecemos servicios de migración asistida donde nuestro equipo técnico se encarga de transferir todos tus datos de forma segura. Este servicio tiene un costo adicional dependiendo de la complejidad.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿No encontraste lo que buscabas?</h2>
+                <p>Contáctanos directamente y te ayudaremos de inmediato</p>
+                <a href="contacto.html" class="btn btn-primary">Contactar Soporte</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>SauroSoftware</h3>
+                    <p>Transformando ideas en soluciones digitales innovadoras desde 2014.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="descargas.html">Descargas</a></li>
+                        <li><a href="soporte.html">Soporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +591 XXXXXXXX</li>
+                        <li><i class="fas fa-envelope"></i> info@saurosoftware.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Cochabamba, Bolivia</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>WhatsApp</h4>
+                    <p>Contáctanos directamente</p>
+                    <a href="https://wa.me/591XXXXXXXX" class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Chatear ahora
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SauroSoftware. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                const isActive = faqItem.classList.contains('active');
+                
+                // Close all FAQs
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                
+                // Open clicked FAQ if it wasn't active
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
